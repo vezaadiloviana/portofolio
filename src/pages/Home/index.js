@@ -13,7 +13,7 @@ function Home() {
         </div>
         <footer className="bg-primaryBlue text-white text-base w-full max-w-[1600px] text-center px-10 py-4" >
           The page is still under development <br/>
-          © 2024 Veza Adiloviana
+          © 2023 Veza Adiloviana
         </footer>
     </div>
   )
