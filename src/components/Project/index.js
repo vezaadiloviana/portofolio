@@ -27,42 +27,42 @@ const Project = () => {
         </div>
         <div className="col-span-8 grid grid-cols-2">
           <div class="group relative">
-            <div class="transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
+            <div class="cursor-pointer">
               <img src={imgbanyumax} alt="banyumax.id" />
             </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg scale-110 transition duration-300 delay-300">
+            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
               banyumax.id
             </div>
           </div>
           <div class="group relative">
-            <div class="transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
+            <div class="cursor-pointer">
              <img src={imgbabangid} alt="babang.id" />
             </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg scale-110 transition duration-300 delay-300">
+            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
               babang.id
             </div>
           </div>
           <div class="group relative">
-            <div class="transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
+            <div class="cursor-pointer">
             <img src={imgb2bbabangid} alt="b2b.babang.id" />
             </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg scale-110 transition duration-300 delay-300">
+            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
               b2b-babang.id
             </div>
           </div>
           <div class="group relative">
-            <div class="transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
+            <div class="cursor-pointer">
               <img src={imgsonic} alt="sonicsolusidigital" />
             </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg scale-110 transition duration-300 delay-300">
+            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
             sonicdigital.id
             </div>
           </div>
           <div class="group relative">
-            <div class="transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
+            <div class="cursor-pointer">
                 <img src={imgwhitefox} alt="whitefox.id" />
             </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg scale-110 transition duration-300 delay-300">
+            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
               whitefox.id
             </div>
           </div>
