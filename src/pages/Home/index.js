@@ -3,6 +3,7 @@ import NavbarApp from '../../components/NavbarApp'
 import Jumbotron from '../../components/Jumbotron'
 import About from '../../components/About'
 import Skills from '../../components/Skills'
+import Project from '../../components/Project'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <div className='px-10 pt-10'>
             <About />
             <Skills />
+            <Project />
         </div>
         <footer className="bg-primaryBlue text-white text-base w-full max-w-[1600px] text-center px-10 py-4" >
           The page is still under development <br/>
