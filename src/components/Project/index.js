@@ -5,6 +5,7 @@ import imgbabangid from "../../assets/img/project/babangid.png";
 import imgb2bbabangid from "../../assets/img/project/b2bbabangid.png";
 import imgsonic from "../../assets/img/project/sonic.png";
 import imgwhitefox from "../../assets/img/project/whitefox.png";
+import HoverGroupImg from "../HoverGroupImg";
 
 const Project = () => {
   return (
@@ -26,46 +27,11 @@ const Project = () => {
           </div>
         </div>
         <div className="col-span-8 grid grid-cols-2">
-          <div class="group relative">
-            <div class="cursor-pointer">
-              <img src={imgbanyumax} alt="banyumax.id" />
-            </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
-              banyumax.id
-            </div>
-          </div>
-          <div class="group relative">
-            <div class="cursor-pointer">
-             <img src={imgbabangid} alt="babang.id" />
-            </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
-              babang.id
-            </div>
-          </div>
-          <div class="group relative">
-            <div class="cursor-pointer">
-            <img src={imgb2bbabangid} alt="b2b.babang.id" />
-            </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
-              b2b-babang.id
-            </div>
-          </div>
-          <div class="group relative">
-            <div class="cursor-pointer">
-              <img src={imgsonic} alt="sonicsolusidigital" />
-            </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
-            sonicdigital.id
-            </div>
-          </div>
-          <div class="group relative">
-            <div class="cursor-pointer">
-                <img src={imgwhitefox} alt="whitefox.id" />
-            </div>
-            <div class="text-center hidden group-hover:block absolute z-10 text-white w-full bg-secondaryYellow text-xs md:text-base p-1.5 md:p-3 rounded-b-lg">
-              whitefox.id
-            </div>
-          </div>
+          <HoverGroupImg nameProject={"banyumax.id"} imgProject={imgbanyumax}/>
+          <HoverGroupImg nameProject={"babang.id"} imgProject={imgbabangid}/>
+          <HoverGroupImg nameProject={"b2b-babang.id"} imgProject={imgb2bbabangid}/>
+          <HoverGroupImg nameProject={"sonicdigital.id"} imgProject={imgsonic}/>
+          <HoverGroupImg nameProject={"whitefox.id"} imgProject={imgwhitefox}/>
         </div>
       </div>
     </div>
