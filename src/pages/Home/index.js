@@ -4,6 +4,7 @@ import Jumbotron from '../../components/Jumbotron'
 import About from '../../components/About'
 import Skills from '../../components/Skills'
 import Project from '../../components/Project'
+import Experiences from '../../components/Experiences'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
             <About />
             <Skills />
             <Project />
+            <Experiences/>
         </div>
         <footer className="bg-primaryBlue text-white text-base w-full max-w-[1600px] text-center px-10 py-4" >
           The page is still under development <br/>

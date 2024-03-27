@@ -13,7 +13,7 @@ const Project = () => {
       <Title title={"Project"} subTitle={"Portofolio"} />
       <div className="flex flex-col md:grid grid-cols-12 gap-10">
         <div className="col-span-4">
-          <p className="font-bold text-2xl text-[#404040] mb-10">
+          <p className="font-bold text-2xl text-[#404040] dark:text-gray-200 mb-10">
             Take a glimpse into my journey of creation and witness the fruits of
             my labor.
           </p>
