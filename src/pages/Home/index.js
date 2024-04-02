@@ -5,6 +5,7 @@ import About from '../../components/About'
 import Skills from '../../components/Skills'
 import Project from '../../components/Project'
 import Experiences from '../../components/Experiences'
+import Achievement from '../../components/Achievement'
 
 function Home() {
   return (
@@ -16,10 +17,11 @@ function Home() {
             <Skills />
             <Project />
             <Experiences/>
+            <Achievement />
         </div>
         <footer className="bg-primaryBlue text-white text-base w-full max-w-[1600px] text-center px-10 py-4" >
           The page is still under development <br/>
-          © 2023 Veza Adiloviana
+          © 2024 Veza Adiloviana
         </footer>
     </div>
   )
