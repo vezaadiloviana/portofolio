@@ -6,6 +6,7 @@ import Skills from '../../components/Skills'
 import Project from '../../components/Project'
 import Experiences from '../../components/Experiences'
 import Achievement from '../../components/Achievement'
+import Contact from '../../components/Contact'
 
 function Home() {
   return (
@@ -18,9 +19,9 @@ function Home() {
             <Project />
             <Experiences/>
             <Achievement />
+            <Contact />
         </div>
         <footer className="bg-primaryBlue text-white text-base w-full max-w-[1600px] text-center px-10 py-4" >
-          The page is still under development <br/>
           © 2024 Veza Adiloviana
         </footer>
     </div>
