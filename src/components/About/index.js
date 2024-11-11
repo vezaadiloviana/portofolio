@@ -11,6 +11,8 @@ const About = () => {
           <h1 className="text-black dark:text-white text-3xl md:text-4xl font-bold underline mb-5">Front End Developer</h1>        
           <p className="text-black dark:text-white text-lg md:text-xl font-medium text-justify">
             I am a passionate front-end developer with a keen eye for detail and a drive to create engaging user experiences by translating design concepts into high-quality user interfaces and responsive websites. With a solid foundation in HTML, CSS, and JavaScript, with styling using tailwindCSS.
+            <br/> <br/>
+            Currently learning Android development using React Native and integrating RESTful APIs to deliver dynamic, user-focused experiences.
           </p>
         </div>
         <div className="flex justify-center">
