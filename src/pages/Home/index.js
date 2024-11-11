@@ -13,7 +13,7 @@ function Home() {
     <div className='bg-lightMode dark:bg-darkMode'>
         <NavbarApp/>
         <Jumbotron />
-        <div className='px-10 pt-10'>
+        <div className='px-5 md:px-10 pt-10'>
             <About />
             <Skills />
             <Project />
