@@ -6,7 +6,7 @@ const Jumbotron = () => {
       <div className="flex flex-col items-center text-white mb-20">
         <h1 className="text-3xl md:text-4xl font-extrabold text-center">Hi there!</h1>
         <h1 className="text-3xl md:text-4xl font-extrabold text-center">I am <span className="text-secondaryYellow">Veza Adiloviana</span> </h1>
-        <h1 className="text-3xl md:text-4xl font-extrabold text-center">and I am a <span className="text-secondaryYellow">Front End Web Developer</span> </h1>
+        <h1 className="text-3xl md:text-4xl font-extrabold text-center">and I am a <span className="text-secondaryYellow">Front End Developer</span> </h1>
       </div>
       <div>
         <a href="#about" className="bg-secondaryYellow text-white font-semibold px-5 py-2 rounded-lg">Let's Start</a>
